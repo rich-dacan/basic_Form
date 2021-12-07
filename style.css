@@ -1,0 +1,65 @@
+body {
+
+  font-family: 'Roboto', sans-serif;
+
+  background-image: linear-gradient(to right, #f4ddec, #f2f2f2);
+}
+
+#formStyloso {
+
+  background: #fff;
+  border: solid #fff;
+  /* box-shadow: 5px 5px 5px #c4c4c4; */
+  box-shadow: 5px 5px 15px grey;
+  
+  text-align: center;
+
+  display: block;
+
+  width: 300px;
+  height: 300px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+
+  padding: 10px;
+}
+
+button {
+
+  background-color: blueviolet;
+  border: none;
+  color: #f2f2f2;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+  padding: 10px 75px;
+
+}
+
+button:hover {
+
+  opacity: 0.8;
+
+}
+
+input {
+
+  padding: 10px;
+  margin: 5px;
+
+  background-color: #f2f2f2;
+  border: none;
+  
+}
+
+#userName {
+
+  background-color: #c4c4c4;
+
+}
+
+
+/* Paleta: rosa (#f4ddec), verde (#f1f7f3), cinza escuro (#c4c4c4), cinza claro (#f2f2f2) */
