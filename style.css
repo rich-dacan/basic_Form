@@ -2,22 +2,28 @@ body {
 
   font-family: 'Roboto', sans-serif;
 
-  background-image: linear-gradient(to right, #f4ddec, #f2f2f2);
+  background-image: linear-gradient(to right, #4d0a35, #f2f2f2);
+
+  /* background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+
 }
 
 #formStyloso {
 
   background: #fff;
-  border: solid #fff;
-  /* box-shadow: 5px 5px 5px #c4c4c4; */
-  box-shadow: 5px 5px 15px grey;
+  border: solid #000 1px;
+  
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
   
   text-align: center;
 
   display: block;
 
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 550px;
 
   margin-left: auto;
   margin-right: auto;
@@ -34,6 +40,9 @@ button {
 
   cursor: pointer;
 
+  width: 350px;
+  height: 70px;
+
   margin-top: 10px;
   padding: 10px 75px;
 
@@ -47,11 +56,21 @@ button:hover {
 
 input {
 
-  padding: 10px;
-  margin: 5px;
+  padding: 15px;
+  margin: 15px;
+  width: 300px;
 
   background-color: #f2f2f2;
   border: none;
+  
+}
+input:hover::placeholder {
+  padding-left: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+input:focus {
+  background-color: #f7f7f3;
   
 }
 
